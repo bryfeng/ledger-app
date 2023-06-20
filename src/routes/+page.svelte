@@ -3,7 +3,7 @@
     import Descriptions from '../components/descriptions.svelte'
     import PaymentMethods from '../components/paymethods.svelte'
 </script>
-<img src="src/components/assets/logo.svg" alt="Logo" class="logo" />
+<img src="components/assets/logo.svg" alt="Logo" class="logo" />
 
 <h2>Buy Crypto via Unlimit</h2>
 <br>
