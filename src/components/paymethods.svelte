@@ -3,7 +3,7 @@
     let svgs: string[] = [];
 
     onMount(async () => {
-    const response = await fetch('%sveltekit.assets%/assets/paymethods/svg.json');
+    const response = await fetch('assets/paymethods/svg.json');
     svgs = await response.json();
   });
 
@@ -11,7 +11,7 @@
   
   <div class="svg-container">
     {#each svgs as svg (svg)}
-      <img src="%sveltekit.assets%/assets/paymethods/{svg}" alt={svg} class="svg-item" />
+      <img src="assets/paymethods/{svg}" alt={svg} class="svg-item" />
     {/each}
   </div>
   
